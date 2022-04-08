@@ -106,19 +106,19 @@ h3 {
 
 .txtbox {
     background-color: #E5E7EB;
-    padding: 75px 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 275px;
 }
 
 .quote {
     font-size: 36px;
     color: #1F2937;
-    padding: 0 450px;
 }
 
 .source {
     color: #1F2937;
-    padding: 0 500px;
-    text-align: right;
+    align-self: flex-end;
 }
 
 .modal {
