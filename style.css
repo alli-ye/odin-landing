@@ -65,8 +65,9 @@ p {
 .first {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 5px;
+    border-radius: 8px;
     border: solid #3882F6;
+    padding: 5px 25px;
 }
 
 .placeholder { 
@@ -153,9 +154,10 @@ h3 {
 .second {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 8px;
+    border-radius: 10px;
     border: solid #F9FAF8;
-    padding: 5px 30px;
+    border-width: thin;
+    padding: 0px 35px;
 }
 
 footer {
