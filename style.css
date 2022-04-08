@@ -7,8 +7,16 @@ body {
 
 header {
     background: #1F2937;
+    width: auto;
+    height: auto;
+    padding: 25px 150px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo {
     font-size: 24px;
@@ -16,6 +24,8 @@ header {
 }
 
 ul {
+    display: flex;
+    align-items: center;
     list-style-type: none;
     gap: 24px;
 }
@@ -25,6 +35,21 @@ a {
     color: #E5E7EB;
     text-decoration: none;
 }
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
 
 h2 {
     font-size: 48px;
@@ -37,35 +62,100 @@ p {
     color: #E5E7EB;
 }
 
+.first {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: solid #3882F6;
+}
+
+.placeholder { 
+    width: auto;
+    height: 200px;  
+}
+
 h3 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 25px 100px;
+    gap: 52px;
+}
+
+.nothing {
+    width: auto;
+    height: 175px;
+}
+
+.item {
+    max-width: 200px;
 }
 
 .subtext {
     font-size: 18px;
     color: #1F2937;
+    padding-bottom: 30px;
 }
 
 .txtbox {
     background-color: #E5E7EB;
+    padding: 75px 100px;
 }
 
 .quote {
     font-size: 36px;
     color: #1F2937;
+    padding: 0 450px;
 }
 
 .source {
     color: #1F2937;
+    padding: 0 500px;
+    text-align: right;
 }
 
-button {
+.modal {
+    background: #3882F6;
+    margin: 65px 295px;
+    padding: 35px 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.block {
+    display: flex;
+    width: 50%; 
+    flex-direction: column;
+}
+
+.call,
+.text {
+    color: #F9FAF8;
+}
+
+.call {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.second {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 5px;
-    border: solid #3882F6;
+    border-radius: 8px;
+    border: solid #F9FAF8;
+    padding: 5px 30px;
 }
 
 footer {
